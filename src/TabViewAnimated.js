@@ -12,8 +12,8 @@ import type {
   PagerProps,
   Style,
 } from './TabViewTypeDefinitions';
-import {PxToDxWithFixedWidth750} from "../../../../../js/common/GlobalUtil";
-import {screenWidth} from "../../../../../js/config/theme";
+import {PxToDxWithFixedWidth750} from "../../../js/common/GlobalUtil";
+import {screenWidth} from "../../../js/config/theme";
 
 type Props<T> = PagerProps<T> & {
   navigationState: NavigationState<T>,
