@@ -227,7 +227,7 @@ export default class TabViewAnimated<T: *> extends React.Component<
                            height: PxToDxWithFixedWidth750(120),
                            position: 'relative',
                            left: screenWidth / 2 - PxToDxWithFixedWidth750(45),
-                           top: -14,
+                           top: -4.55,
                        }}/>
               </View>
           )}
